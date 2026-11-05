@@ -1,0 +1,102 @@
+body {
+    background-color: #C000FF;
+}
+h1 {
+    text-align: center;
+    color: #FF0600;
+    border-radius: 20px;
+    border: 3px solid #FF0600;
+    background-color: #00FF06;
+    padding: 10px;
+    width: fit-content;
+    box-shadow: 4px 4px 0px #880000;
+    margin-inline: auto;
+}
+
+p {
+    color: #FF0600;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 3px solid #FF0600;
+    background-color: #00FF06;
+    padding: 10px;
+    width: fit-content;
+    box-shadow: 4px 4px 0px #880000;
+}
+a:not(:has(img, video)) {
+    color: #FF0600;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 3px solid #FF0600;
+    background-color: #00FF06;
+    padding: 10px;
+    width: fit-content;
+    box-shadow: 4px 4px 0px #880000;
+}
+
+* {
+    box-sizing: border-box;
+}    
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.column4x3 {
+    float: left;
+    width: 36.36%;
+    padding: 5px;
+}
+.column1x1 {
+    float: left;
+    width: 27.27%;
+    padding: 5px;
+}
+.column5 {
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+.column4 {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+.column34375 {
+    float: left;
+    width: 30.875%;
+    padding: 5px;
+}
+.column125 {
+    float: left;
+    width: 15.85%;
+    padding: 5px;
+}
+.column1875 {
+    float: left;
+    width: 21.875%;
+    padding: 5px;
+}
+
+img{
+    border-radius: 20px;
+    border: 3px solid #FF0600;
+    padding: 1px;
+    width: 100%;
+    display: block;
+    box-shadow: 4px 4px 0px #880000;
+}
+video{
+    border-radius: 20px;
+    border: 3px solid #FF0600;
+    padding: 1px;
+    width: 100%;
+    display: block;
+    box-shadow: 4px 4px 0px #880000;
+}
